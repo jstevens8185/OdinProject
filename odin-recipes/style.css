@@ -1,0 +1,19 @@
+body{
+    background-color: #ebebeb;
+}
+
+h1{
+    text-align: center;
+    color: #394648;
+    font-family: "Arial", "Helvetica", sans-serif;
+    font-size: 48px;
+}
+
+#recipeHeader{
+    /* text-align: center; */
+    color: #394648;
+    font-size: 24px;
+}
+/* .recipeList {
+
+} */
