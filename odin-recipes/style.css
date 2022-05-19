@@ -7,13 +7,20 @@ h1{
     color: #394648;
     font-family: "Arial", "Helvetica", sans-serif;
     font-size: 48px;
+    text-decoration: underline;
 }
 
 #recipeHeader{
-    /* text-align: center; */
+    text-align: center;
     color: #394648;
     font-size: 24px;
 }
-/* .recipeList {
+ ul{
+     list-style: none;
+     border: 1px solid #394648;
+     display: block;
+ }
 
-} */
+ .recipeItem{
+     text-align: center;
+ }
