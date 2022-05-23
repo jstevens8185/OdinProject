@@ -13,7 +13,7 @@ body {
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   padding: 8px;
 }
 
@@ -32,9 +32,9 @@ body {
   font-style: italic;
 }
 
-.rhs {
-    margin-left: auto;
+.rhs, .lhs {
     display: flex;
+    align-items: center;
     gap: 16px;
 }
 
@@ -55,5 +55,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
+  margin: 0px;
+  padding: 0px;
   gap: 16px;
 }
