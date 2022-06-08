@@ -46,7 +46,7 @@ function computerPlay(){
         default:
             break;
     }
-    console.log(compChoice);
+    //console.log(compChoice);
 
     return compChoice;
 };
@@ -141,16 +141,16 @@ function game(){
             if(winner == 'Computer'){
                 compWins++;
             };
-            message = `Player chose ${playerChoice}. 
-                            Computer chose ${compChoice}.\n
-                            ${winner} wins.\n
-                            Player: ${playerWins}   Computer: ${compWins}`;
+            message = `Player chose ${playerChoice}.\n
+            Computer chose ${compChoice}.\n
+            ${winner} wins.\n
+            Player: ${playerWins}   Computer: ${compWins}`;
         }
         if(winner == 'Tie'){
             message = `Player chose ${playerChoice}.
-                            Computer chose ${compChoice}.\n
-                            Tie game.\n
-                            Player: ${playerWins}   Computer: ${compWins}`;
+            Computer chose ${compChoice}.\n
+            Tie game.\n
+            Player: ${playerWins}   Computer: ${compWins}`;
         }
         console.log(message);
     }
