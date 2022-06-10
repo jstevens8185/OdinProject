@@ -3,4 +3,9 @@ paragraph.textContent = "Hey I'm red!";
 paragraph.style.color = 'red';
 
 const container = document.querySelector('#container');
-body.append(paragraph);
+container.append(paragraph);
+
+const h3 = document.createElement('h3');
+h3.textContent =  "I'm a blue h3!";
+h3.style.color = 'blue';
+
