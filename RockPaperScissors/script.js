@@ -126,13 +126,13 @@ function compareChoices(playerChoice, compChoice){
 }
 
 function game(){
-    let message = 'error: no message assigned';
+    //let message = 'error: no message assigned';
     let compWins = 0;
     let playerWins = 0;
 
-    for(let i = 0; i < 5; i++){
+    
         let compChoice = computerPlay();
-        let playerChoice = getPlayerInput();
+        //let playerChoice = getPlayerInput();
         let winner = compareChoices(playerChoice, compChoice);
         if(winner == 'Player' || winner == 'Computer'){
             if(winner == 'Player'){
@@ -153,5 +153,24 @@ function game(){
             Player: ${playerWins}   Computer: ${compWins}`;
         }
         console.log(message);
-    }
 }
+
+///////////////////////////////////////////////
+//      Main
+//  Here's where the program starts.
+//  It should display three buttons.
+//  One for rock, one for paper,
+//      and one for scissors.
+//  Upon clicking a button, the game should select 
+//  its own choice, compare, then update the score.
+//////////////////////////////////////////////////
+
+    const rockBtn = document.createElement('button');
+    rockBtn.innerHTML = 'Rock';
+    rockBtn.type = 'submit';
+    rockBtn.name = 'rockButton';
+    rockBtn.className = 'choiceButton';
+    rockBtn.addEventListener('click', ()=>{
+        alert('You clicked rock')
+    });
+    document.body.appendChild(rockBtn);

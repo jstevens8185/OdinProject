@@ -1,0 +1,12 @@
+.choiceButton{
+    text-transform: uppercase;
+    background-color: slategray;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border: none;
+}
+
+.choiceButton:hover{
+    background-color: #48525c;
+}
